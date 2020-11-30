@@ -1,0 +1,121 @@
+.imageslider { 
+   /* background: url(https://raw.githubusercontent.com/mo214/vedsted/main/slider.jpg);
+    background: url(https://raw.githubusercontent.com/mo214/vedsted/main/forside_slider2.jpg);
+    background: url(https://raw.githubusercontent.com/mo214/vedsted/main/forside_slider3.jpg);
+    background: url(https://raw.githubusercontent.com/mo214/vedsted/main/forside_slider4.jpg);
+  */  background-position: 7px;
+    /*height: 80%;
+    width: 100%;*/
+    
+    margin-top: 4%;
+    
+
+}
+.backgroundimg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 154px;
+    left: 0;
+    max-height: 80%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+#back1 {
+    background: url("https://raw.githubusercontent.com/mo214/vedsted/main/slider.jpg") no-repeat center;
+    width: 100%;
+    height: 400px;
+}
+
+#back2 {
+    background: url("https://raw.githubusercontent.com/mo214/vedsted/main/forside_slider2.jpg") no-repeat center;
+    width: 100%;
+    height: 400px;
+}
+
+#back3 {
+    background: url("https://raw.githubusercontent.com/mo214/vedsted/main/forside_slider3.jpg") no-repeat center;
+    width: 100%;
+    height: 400px;
+}
+
+#back4 {
+    background: url("https://raw.githubusercontent.com/mo214/vedsted/main/forside_slider4.jpg") no-repeat center;
+    width: 100%;
+    height: 400px;
+}
+
+@keyframes backgroundchangeFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-webkit-keyframes backgroundchangeFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  #imageslides div:nth-of-type(1) {
+    animation-delay: 10s;
+    -webkit-animation-delay: 8s;
+  }
+  #imageslides div:nth-of-type(2) {
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+  }
+  #imageslides div:nth-of-type(3) {
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+  }
+  #imageslides div:nth-of-type(4) {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+  }
+  
+  #imageslides div:nth-of-type(5) {
+    animation-delay: 0;
+    -webkit-animation-delay: 0;
+  }
+
+  #imageslides div {
+    animation-name: backgroundchangeFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    
+    -webkit-animation-name: backgroundchangeFadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
+    
+    }
