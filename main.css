@@ -1,19 +1,12 @@
-.header {
-    display: block;
-    margin-right: 10%;
-    margin-left: 10%;
-    width: 2543px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+
 .menu {
     overflow: hidden;
     background-color: transparent;
-    padding: 15px;
-    padding-left: 15%;
+    padding: 55px;
+    padding-left: 29%;
     width: 100%;
     float: left;
-    top: 44px;
+   
   }
 
 
@@ -25,7 +18,8 @@
     font-size: 17px;
     border-bottom: 3px solid transparent;
     font-weight: 500;
-    font-family: "Montserrat", Sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
     text-decoration: none;
     color: #000000;
 }
@@ -37,7 +31,7 @@
 .logo {
     position: absolute;  
     left: 15%;
-    top: 56px;
+    top: 75px;
 }
 
 .image {
@@ -63,14 +57,252 @@
     text-decoration: none;
     color: #7a0202;
 }
+/*
 .imageslider { 
-    background: url(https://raw.githubusercontent.com/mo214/myfirstwebsite/main/bAw50ZG.jpg);
-    background-position: center center;
+    background: url(https://raw.githubusercontent.com/mo214/vedsted/main/slider.jpg);
+    background-position: 7px;
     height: 500px;
     width: 100%;
+    margin-top: 4%;
+    background-repeat: no-repeat;
+}
+*/
+.slidertext {
+    margin-top: 12%;
+    margin-left: 17%;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 0.6;
+    
+}
+
+.button {
+    border:none;
+    color:#000000;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    margin: -16px 319px;
+    cursor: pointer;
+    
 }
 
 
+.buttonef {
+background-color: #7a0202;
+color: #ffffff;
+
+} 
+
+.buttonef:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.velkomtext {
+    text-align: center;
+    line-height: 0.6;
+    margin-top: 9%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p.velkomtext {
+    font-weight: bold;
+    
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+.imagecol {
+    float: left;
+    width: 16%;
+    padding: 10px;
+    margin-top: 76px;
+    padding-left: 308px;
+   position: relative;
+}
+
+
+.row {
+clear: both;
+display: table;
+}
+
+.coltext {
+    text-align: center !important;
+    font-weight: bolder;
+    width: 243px;
+
+}
+
+.midsection{
+    min-height: auto;
+    min-width: auto;
+    display: block;
+}
+.midtext {
+    margin: 0;
+    display: block;
+    margin-left: 19%;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+
+}
+
+.viråd {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.vierf {
+    float: left;
+    width: 36%;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.woodimage {
+background: url(https://raw.githubusercontent.com/mo214/vedsted/main/trae.jpg);
+    background-position: 100%;
+    height: 357px;
+    width: 100%;
+    margin-top: 1%;
+    
+}
+
+.rowlogos{
+    margin-left: 20%;
+    margin-top: -5%;
+
+}
+.logo1 {
+    float: left;
+    width: 27%;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.logo2 {
+    float: left;
+    width: 24%;
+    overflow: hidden;
+    margin-top: 22px;
+}
+
+.logo3 {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+
+}
+
+
+.kontaktart {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 9%;
+    
+}
+
+.kontaktart a {
+    font-weight: bold;
+    
+}
+.lowsection {
+    margin-left: 24%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+
+}
+.contactform {
+    position: relative;
+    max-width: 30%;
+    margin-right: 3%;
+    float: left;
+
+}
+.subbotton input {
+    width: 100%;
+    background-color: #7a0202;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.textinput input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid;
+    
+    
+}
+
+.textarea textarea{
+    width: 100%;
+    height: 170px;
+}
+
+
+
+.footer {
+position: relative;
+bottom: 0;
+width: 100%;
+min-height: 60px;
+background-color: rgb(41, 41, 41);
+height: 173px;
+
+
+    
+}
+
+.midtfooter {
+    padding-top: 1%;
+}
+#footerh2, #footerp {
+color:#ffffff;
+text-align: center;
+
+}
+
+.footerlogo1 {
+    float: left;
+    margin-left: 16%;
+}
+
+.footerlogo2 {
+    float: right;
+    margin-right: 20%;
+}
+
+.footertexts {
+    margin-left: 38%;
+    margin-right: 42%;
+    margin-top: -1%;
     
 
-
+}
+.tinyinfo {
+    color: #ffffff;
+    margin-left: 13%;
+}
